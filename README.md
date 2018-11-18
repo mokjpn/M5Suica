@@ -13,5 +13,5 @@ Build envirnment: PlatformIO
 1. Connect [USB Felica Reader RC-S320](https://www.sony.co.jp/Products/felica/consumer/products/list.html). Other Suica Readers might work, but not confirmed.
 1. As the green LED on Felica Reader blinks, place your Suica/Pasmo on the reader. 
 
-[Photo](https://raw.githubusercontent.com/mokjpn/mokjpn.github.io/master/images/IMG_0340.jpeg)
+![Photo](https://raw.githubusercontent.com/mokjpn/mokjpn.github.io/master/images/IMG_0340.jpeg)
 
