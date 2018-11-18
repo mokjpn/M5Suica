@@ -1,9 +1,11 @@
 # M5Suica
 M5Stack Suica Reader
 
-## To build software
+## Build dependency
 
-Copy FreeFonts.h from [M5Stack Arduino Library](https://github.com/m5stack/M5Stack) M5Stack/docs/examples/Advanced/Display/All_Free_Fonts_Demo
+- [USB Host Shield Library 2.0](https://github.com/felis/USB_Host_Shield_2.0)
+- [M5Stack Arduino Library](https://github.com/m5stack/M5Stack)
+- Copy FreeFonts.h from [M5Stack Arduino Library](https://github.com/m5stack/M5Stack) M5Stack/docs/examples/Advanced/Display/All_Free_Fonts_Demo
 
 Build envirnment: PlatformIO
 
