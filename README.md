@@ -15,3 +15,8 @@ Build envirnment: PlatformIO
 
 ![Photo](https://raw.githubusercontent.com/mokjpn/mokjpn.github.io/master/images/IMG_0340.jpeg)
 
+## Acknowledgement
+
+USB Felica Reader(PaSoRi) Library was [originally developped by NeoCat](http://neocat.hatenablog.com/entry/20101123/1290514516).
+This library is essential to make this tool.
+
