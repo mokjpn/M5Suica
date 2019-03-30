@@ -1,5 +1,6 @@
 #include <Arduino.h>
 #include <M5Stack.h>
+#include <M5StackUpdater.h>
 #include <Free_Fonts.h>  // From M5Stack/docs/examples/Advanced/Display/All_Free_Fonts_Demo
 #include <Usb.h>
 #include <PaSoRi.h>
@@ -60,6 +61,12 @@ int readSFC()
 
 void setup() {
   M5.begin();
+  if (digitalRead(BUTTON_A_PIN) == 0)
+  {
+    Serial.println("Will Load menu binary");
+    updateFromFS(SD);
+    ESP.restart();
+  }
   Serial.begin(115200);
   Serial.println("Start");
   delay(5);                    // ★5ms遅らす
